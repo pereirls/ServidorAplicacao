@@ -1,0 +1,468 @@
+2018-08-18 00:12:03,454 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 140) WFLYUT0022: Unregistered web context: /javaee
+2018-08-18 00:12:03,483 INFO  [org.jboss.as.webservices] (MSC service thread 1-1) WFLYWS0004: Stopping service jboss.ws.endpoint."javaee.war".ContaWs
+2018-08-18 00:12:03,494 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0010: Stopping weld service for deployment javaee.war
+2018-08-18 00:12:03,512 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 143) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'javaee.war#javaeeDS'
+2018-08-18 00:12:03,531 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 141) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'javaee.war#javaeeDS'
+2018-08-18 00:12:03,543 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment javaee.war (runtime-name: javaee.war) in 79ms
+2018-08-18 00:12:03,548 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 141) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2018-08-18 00:12:03,643 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "javaee.war" (runtime-name: "javaee.war")
+2018-08-18 00:12:09,371 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found javaee.war in deployment directory. To trigger deployment create a file called javaee.war.dodeploy
+2018-08-18 00:12:09,382 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "javaee.war" (runtime-name: "javaee.war")
+2018-08-18 00:12:09,639 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for javaeeDS
+2018-08-18 00:12:09,656 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 141) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'javaee.war#javaeeDS'
+2018-08-18 00:12:09,656 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 141) HHH000204: Processing PersistenceUnitInfo [
+	name: javaeeDS
+	...]
+2018-08-18 00:12:09,659 INFO  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 141) HHH90000001: Found usage of deprecated setting for specifying Scanner [hibernate.ejb.resource_scanner]; use [hibernate.archive.scanner] instead
+2018-08-18 00:12:09,885 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment javaee.war
+2018-08-18 00:12:09,891 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'ContaDao' in deployment unit 'deployment "javaee.war"' are as follows:
+
+	java:global/javaee/ContaDao!br.com.javaee.dao.ContaDao
+	java:app/javaee/ContaDao!br.com.javaee.dao.ContaDao
+	java:module/ContaDao!br.com.javaee.dao.ContaDao
+	java:global/javaee/ContaDao
+	java:app/javaee/ContaDao
+	java:module/ContaDao
+
+2018-08-18 00:12:09,891 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'ContaWs' in deployment unit 'deployment "javaee.war"' are as follows:
+
+
+2018-08-18 00:12:09,891 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'ContaBean' in deployment unit 'deployment "javaee.war"' are as follows:
+
+	java:global/javaee/ContaBean!br.com.javaee.beans.ContaBean
+	java:app/javaee/ContaBean!br.com.javaee.beans.ContaBean
+	java:module/ContaBean!br.com.javaee.beans.ContaBean
+	java:global/javaee/ContaBean
+	java:app/javaee/ContaBean
+	java:module/ContaBean
+
+2018-08-18 00:12:10,090 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0006: Starting Services for CDI deployment: javaee.war
+2018-08-18 00:12:10,092 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-2) JBWS024061: Adding service endpoint metadata: id=ContaWs
+ address=http://localhost:8080/javaee/ContaWs
+ implementor=webService.ContaWs
+ serviceName={http://webService/}ContaWsService
+ portName={http://webService/}ContaWsPort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2018-08-18 00:12:10,102 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-2) Creating Service {http://webService/}ContaWsService from class webService.ContaWs
+2018-08-18 00:12:10,160 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 141) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-08-18 00:12:10,193 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 141) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-08-18 00:12:10,228 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 141) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-08-18 00:12:10,228 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 141) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-08-18 00:12:10,233 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 141) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-08-18 00:12:10,311 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-2) Setting the server's publish address to be http://localhost:8080/javaee/ContaWs
+2018-08-18 00:12:10,671 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-2) JBWS024074: WSDL published to: file:/C:/Users/trilha/Desktop/wildfly-10.0.0.Final/standalone/data/wsdl/javaee.war/ContaWsService.wsdl
+2018-08-18 00:12:10,723 INFO  [org.jboss.as.webservices] (MSC service thread 1-1) WFLYWS0003: Starting service jboss.ws.endpoint."javaee.war".ContaWs
+2018-08-18 00:12:10,727 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0009: Starting weld service for deployment javaee.war
+2018-08-18 00:12:10,747 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 141) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'javaee.war#javaeeDS'
+2018-08-18 00:12:10,748 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 141) HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2018-08-18 00:12:10,753 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 141) Envers integration enabled? : true
+2018-08-18 00:12:10,784 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 141) HHH000228: Running hbm2ddl schema update
+2018-08-18 00:12:12,347 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 144) Inicializando Mojarra 2.2.12-jbossorg-2 20150729-1131 para o contexto '/javaee'
+2018-08-18 00:12:13,050 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 144) WFLYUT0021: Registered web context: /javaee
+2018-08-18 00:12:13,556 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "javaee.war" (runtime-name : "javaee.war")
+2018-08-18 00:13:09,960 INFO  [stdout] (default task-12) null
+2018-08-18 00:13:09,974 INFO  [stdout] (default task-12) Hibernate: 
+2018-08-18 00:13:09,974 INFO  [stdout] (default task-12)     insert 
+2018-08-18 00:13:09,974 INFO  [stdout] (default task-12)     into
+2018-08-18 00:13:09,974 INFO  [stdout] (default task-12)         Conta
+2018-08-18 00:13:09,974 INFO  [stdout] (default task-12)         (dataLancamento, nome, tipoLancamento, valor) 
+2018-08-18 00:13:09,974 INFO  [stdout] (default task-12)     values
+2018-08-18 00:13:09,974 INFO  [stdout] (default task-12)         (?, ?, ?, ?)
+2018-08-18 00:13:52,623 INFO  [org.jboss.as.server] (management-handler-thread - 6) WFLYSRV0211: Suspending server with 0ms timeout.
+2018-08-18 00:13:52,638 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested.
+2018-08-18 00:13:52,702 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 149) WFLYUT0022: Unregistered web context: /javaee
+2018-08-18 00:13:52,727 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2018-08-18 00:13:52,829 INFO  [org.jboss.as.webservices] (MSC service thread 1-1) WFLYWS0004: Stopping service jboss.ws.endpoint."javaee.war".ContaWs
+2018-08-18 00:13:52,830 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0019: Host default-host stopping
+2018-08-18 00:13:52,920 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0010: Stopping weld service for deployment javaee.war
+2018-08-18 00:13:52,924 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0006: Unbound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2018-08-18 00:13:52,941 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) WFLYJCA0011: Unbound JCA ConnectionFactory [java:/JmsXA]
+2018-08-18 00:13:52,967 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 156) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'javaee.war#javaeeDS'
+2018-08-18 00:13:53,049 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 156) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'javaee.war#javaeeDS'
+2018-08-18 00:13:53,049 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/javaeeDS]
+2018-08-18 00:13:53,051 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment javaee.war (runtime-name: javaee.war) in 432ms
+2018-08-18 00:13:53,053 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 156) IJ000615: Destroying active connection in pool: javaeeDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@795b5442)
+2018-08-18 00:13:53,053 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 156) IJ000615: Destroying active connection in pool: javaeeDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@3abcd9af)
+2018-08-18 00:13:53,053 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 156) IJ000615: Destroying active connection in pool: javaeeDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@32b7c938)
+2018-08-18 00:13:53,053 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 156) IJ000615: Destroying active connection in pool: javaeeDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@4105fed1)
+2018-08-18 00:13:53,053 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 156) IJ000615: Destroying active connection in pool: javaeeDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@625f5bf7)
+2018-08-18 00:13:53,053 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 156) IJ000615: Destroying active connection in pool: javaeeDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@3ef287b2)
+2018-08-18 00:13:53,053 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 156) IJ000615: Destroying active connection in pool: javaeeDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@3200675d)
+2018-08-18 00:13:53,053 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 156) IJ000615: Destroying active connection in pool: javaeeDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@5c1df4ba)
+2018-08-18 00:13:53,053 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 156) IJ000615: Destroying active connection in pool: javaeeDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@44059c2d)
+2018-08-18 00:13:53,053 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 156) IJ000615: Destroying active connection in pool: javaeeDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@6ee05c08)
+2018-08-18 00:13:53,053 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 156) IJ000615: Destroying active connection in pool: javaeeDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@5f6bf406)
+2018-08-18 00:13:53,058 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = mysql
+2018-08-18 00:13:53,063 INFO  [org.apache.activemq.artemis.ra] (ServerService Thread Pool -- 151) AMQ151003: resource adaptor stopped
+2018-08-18 00:13:53,068 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 156) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2018-08-18 00:13:53,122 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 156) AMQ221002: Apache ActiveMQ Artemis Message Broker version 1.1.0.wildfly-011 [22a0a8c9-8e8c-11e8-98c3-1398376f65b9] stopped
+2018-08-18 00:13:53,122 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Undertow HTTP listener default suspending
+2018-08-18 00:13:53,123 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2018-08-18 00:13:53,123 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0004: Undertow 1.3.15.Final stopping
+2018-08-18 00:13:53,133 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) stopped in 534ms
+2018-08-18 00:13:54,914 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.1.Final
+2018-08-18 00:13:55,286 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2018-08-18 00:13:55,485 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) starting
+2018-08-18 00:13:55,486 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\trilha\Desktop\wildfly-10.0.0.Final\jboss-modules.jar;C:\Program Files\Java\jre1.8.0_181\lib\resources.jar;C:\Program Files\Java\jre1.8.0_181\lib\rt.jar;C:\Program Files\Java\jre1.8.0_181\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_181\lib\jce.jar;C:\Program Files\Java\jre1.8.0_181\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_181\lib\jfr.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_181\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_181\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_181
+	java.io.tmpdir = C:\Users\trilha\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jre1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Brackets\command;C:\Users\trilha\Desktop\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_181-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_181
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.181-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\trilha\Desktop\wildfly-10.0.0.Final
+	jboss.host.name = trilha-pc
+	jboss.modules.dir = C:\Users\trilha\Desktop\wildfly-10.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = trilha-pc
+	jboss.qualified.host.name = trilha-pc
+	jboss.server.base.dir = C:\Users\trilha\Desktop\wildfly-10.0.0.Final\standalone
+	jboss.server.config.dir = C:\Users\trilha\Desktop\wildfly-10.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\trilha\Desktop\wildfly-10.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\trilha\Desktop\wildfly-10.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\trilha\Desktop\wildfly-10.0.0.Final\standalone\log
+	jboss.server.name = trilha-pc
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\trilha\Desktop\wildfly-10.0.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\trilha\Desktop\wildfly-10.0.0.Final\standalone\configuration\logging.properties
+	module.path = C:\Users\trilha\Desktop\wildfly-10.0.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\trilha\Desktop\wildfly-10.0.0.Final\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	program.name = JBossTools: WildFly 10.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_181\lib\resources.jar;C:\Program Files\Java\jre1.8.0_181\lib\rt.jar;C:\Program Files\Java\jre1.8.0_181\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_181\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_181\lib\jce.jar;C:\Program Files\Java\jre1.8.0_181\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_181\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_181\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_181\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\Users\trilha\Desktop\wildfly-10.0.0.Final\modules org.jboss.as.standalone -b localhost --server-config=standalone-full.xml -Djboss.server.base.dir=C:\Users\trilha\Desktop\wildfly-10.0.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = C:\Users\trilha\Desktop\wildfly-10.0.0.Final\bin
+	user.home = C:\Users\trilha
+	user.language = pt
+	user.name = trilha
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2018-08-18 00:13:55,487 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -Dprogram.name=JBossTools: WildFly 10.x -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\Users\trilha\Desktop\wildfly-10.0.0.Final\standalone\log\boot.log -Dlogging.configuration=file:C:\Users\trilha\Desktop\wildfly-10.0.0.Final\standalone\configuration\logging.properties -Djboss.home.dir=C:\Users\trilha\Desktop\wildfly-10.0.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2018-08-18 00:14:00,320 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found javaee.war in deployment directory. To trigger deployment create a file called javaee.war.dodeploy
+2018-08-18 00:14:00,577 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-08-18 00:14:00,601 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.3.4.Final
+2018-08-18 00:14:00,608 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.3.4.Final
+2018-08-18 00:14:01,307 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 4.0.18.Final
+2018-08-18 00:14:01,553 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 62) WFLYWS0002: Activating WebServices Extension
+2018-08-18 00:14:01,650 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 59) WFLYSEC0002: Activating Security Subsystem
+2018-08-18 00:14:01,843 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-08-18 00:14:01,646 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 60) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2018-08-18 00:14:02,178 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 42) WFLYIIOP0001: Activating IIOP Subsystem
+2018-08-18 00:14:02,208 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 41) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-08-18 00:14:02,556 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0003: Undertow 1.3.15.Final starting
+2018-08-18 00:14:02,585 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0014: Creating file handler for path 'C:\Users\trilha\Desktop\wildfly-10.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-08-18 00:14:02,628 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2018-08-18 00:14:02,650 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2018-08-18 00:14:03,032 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 52) WFLYNAM0001: Activating Naming Subsystem
+2018-08-18 00:14:03,046 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 40) WFLYIO001: Worker 'default' has auto-configured to 2 core threads with 16 task threads based on your 1 available processors
+2018-08-18 00:14:03,452 INFO  [org.jboss.as.security] (MSC service thread 1-1) WFLYSEC0001: Current PicketBox version=4.9.4.Final
+2018-08-18 00:14:03,448 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 1.3.15.Final starting
+2018-08-18 00:14:03,926 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.2.Final)
+2018-08-18 00:14:04,283 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Starting Naming Service
+2018-08-18 00:14:04,284 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-08-18 00:14:04,285 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = mysql
+2018-08-18 00:14:04,309 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-08-18 00:14:04,309 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 16 (per class), which is derived from thread worker pool sizing.
+2018-08-18 00:14:04,310 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 4 (per class), which is derived from the number of CPUs on this host.
+2018-08-18 00:14:04,350 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\trilha\Desktop\wildfly-10.0.0.Final\standalone\deployments
+2018-08-18 00:14:04,357 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "javaee.war" (runtime-name: "javaee.war")
+2018-08-18 00:14:04,458 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0012: Started server default-server.
+2018-08-18 00:14:05,755 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-08-18 00:14:05,755 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: Host default-host starting
+2018-08-18 00:14:06,101 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-2) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.0.Final
+2018-08-18 00:14:06,674 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 5.1.3.Final (Apache CXF 3.1.4) 
+2018-08-18 00:14:06,758 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0001: AIO wasn't located on this platform, it will fall back to using pure Java NIO.
+2018-08-18 00:14:06,960 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-2) WFLYIIOP0009: CORBA ORB Service started
+2018-08-18 00:14:07,173 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=C:\Users\trilha\Desktop\wildfly-10.0.0.Final\standalone\data\activemq\journal,bindingsDirectory=C:\Users\trilha\Desktop\wildfly-10.0.0.Final\standalone\data\activemq\bindings,largeMessagesDirectory=C:\Users\trilha\Desktop\wildfly-10.0.0.Final\standalone\data\activemq\largemessages,pagingDirectory=C:\Users\trilha\Desktop\wildfly-10.0.0.Final\standalone\data\activemq\paging)
+2018-08-18 00:14:07,403 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221013: Using NIO Journal
+2018-08-18 00:14:07,498 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/javaeeDS]
+2018-08-18 00:14:07,655 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2018-08-18 00:14:07,858 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2018-08-18 00:14:07,863 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2018-08-18 00:14:07,864 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2018-08-18 00:14:08,015 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for javaeeDS
+2018-08-18 00:14:08,241 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 66) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'javaee.war#javaeeDS'
+2018-08-18 00:14:08,258 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 66) HHH000204: Processing PersistenceUnitInfo [
+	name: javaeeDS
+	...]
+2018-08-18 00:14:08,522 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 66) HHH000412: Hibernate Core {5.0.7.Final}
+2018-08-18 00:14:08,528 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 66) HHH000206: hibernate.properties not found
+2018-08-18 00:14:08,529 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 66) HHH000021: Bytecode provider name : javassist
+2018-08-18 00:14:08,560 INFO  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 66) HHH90000001: Found usage of deprecated setting for specifying Scanner [hibernate.ejb.resource_scanner]; use [hibernate.archive.scanner] instead
+2018-08-18 00:14:08,564 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 66) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-18 00:14:08,728 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment javaee.war
+2018-08-18 00:14:08,814 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2018-08-18 00:14:08,814 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2018-08-18 00:14:08,815 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2018-08-18 00:14:08,815 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2018-08-18 00:14:09,169 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-2) HV000001: Hibernate Validator 5.2.3.Final
+2018-08-18 00:14:09,258 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ContaDao' in deployment unit 'deployment "javaee.war"' are as follows:
+
+	java:global/javaee/ContaDao!br.com.javaee.dao.ContaDao
+	java:app/javaee/ContaDao!br.com.javaee.dao.ContaDao
+	java:module/ContaDao!br.com.javaee.dao.ContaDao
+	java:global/javaee/ContaDao
+	java:app/javaee/ContaDao
+	java:module/ContaDao
+
+2018-08-18 00:14:09,259 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ContaWs' in deployment unit 'deployment "javaee.war"' are as follows:
+
+
+2018-08-18 00:14:09,261 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ContaBean' in deployment unit 'deployment "javaee.war"' are as follows:
+
+	java:global/javaee/ContaBean!br.com.javaee.beans.ContaBean
+	java:app/javaee/ContaBean!br.com.javaee.beans.ContaBean
+	java:module/ContaBean!br.com.javaee.beans.ContaBean
+	java:global/javaee/ContaBean
+	java:app/javaee/ContaBean
+	java:module/ContaBean
+
+2018-08-18 00:14:09,278 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221007: Server is now live
+2018-08-18 00:14:09,280 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221001: Apache ActiveMQ Artemis Message Broker version 1.1.0.wildfly-011 [nodeID=22a0a8c9-8e8c-11e8-98c3-1398376f65b9] 
+2018-08-18 00:14:09,340 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221003: trying to deploy queue jms.queue.ExpiryQueue
+2018-08-18 00:14:09,584 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-1) WFLYJCA0007: Registered connection factory java:/JmsXA
+2018-08-18 00:14:09,917 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 68) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2018-08-18 00:14:09,958 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 67) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2018-08-18 00:14:10,001 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0006: Starting Services for CDI deployment: javaee.war
+2018-08-18 00:14:09,964 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 66) AMQ221003: trying to deploy queue jms.queue.DLQ
+2018-08-18 00:14:10,051 INFO  [org.jboss.weld.Version] (MSC service thread 1-2) WELD-000900: 2.3.2 (Final)
+2018-08-18 00:14:10,220 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-2) JBWS024061: Adding service endpoint metadata: id=ContaWs
+ address=http://localhost:8080/javaee/ContaWs
+ implementor=webService.ContaWs
+ serviceName={http://webService/}ContaWsService
+ portName={http://webService/}ContaWsPort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2018-08-18 00:14:10,243 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-1) Resource adaptor started
+2018-08-18 00:14:10,243 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-1) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2018-08-18 00:14:10,246 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-1) WFLYJCA0002: Bound JCA ConnectionFactory [java:/JmsXA]
+2018-08-18 00:14:10,248 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2018-08-18 00:14:10,262 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 66) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-08-18 00:14:10,264 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 66) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-08-18 00:14:10,278 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 66) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-08-18 00:14:10,279 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 66) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-08-18 00:14:11,242 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 66) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-08-18 00:14:11,426 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-2) Creating Service {http://webService/}ContaWsService from class webService.ContaWs
+2018-08-18 00:14:12,068 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-2) Setting the server's publish address to be http://localhost:8080/javaee/ContaWs
+2018-08-18 00:14:12,202 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-2) JBWS024074: WSDL published to: file:/C:/Users/trilha/Desktop/wildfly-10.0.0.Final/standalone/data/wsdl/javaee.war/ContaWsService.wsdl
+2018-08-18 00:14:12,291 INFO  [org.jboss.as.webservices] (MSC service thread 1-1) WFLYWS0003: Starting service jboss.ws.endpoint."javaee.war".ContaWs
+2018-08-18 00:14:12,304 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0009: Starting weld service for deployment javaee.war
+2018-08-18 00:14:12,515 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 66) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'javaee.war#javaeeDS'
+2018-08-18 00:14:12,896 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 66) HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2018-08-18 00:14:12,970 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 66) Envers integration enabled? : true
+2018-08-18 00:14:13,570 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 66) HHH000228: Running hbm2ddl schema update
+2018-08-18 00:14:15,494 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 71) Inicializando Mojarra 2.2.12-jbossorg-2 20150729-1131 para o contexto '/javaee'
+2018-08-18 00:14:17,213 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 71) WFLYUT0021: Registered web context: /javaee
+2018-08-18 00:14:17,386 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "javaee.war" (runtime-name : "javaee.war")
+2018-08-18 00:14:18,058 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-08-18 00:14:18,059 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-08-18 00:14:18,059 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) started in 23575ms - Started 473 of 740 services (397 services are lazy, passive or on-demand)
+2018-08-18 00:15:18,288 INFO  [stdout] (default task-2) null
+2018-08-18 00:20:00,125 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 72) WFLYUT0022: Unregistered web context: /javaee
+2018-08-18 00:20:00,149 INFO  [org.jboss.as.webservices] (MSC service thread 1-2) WFLYWS0004: Stopping service jboss.ws.endpoint."javaee.war".ContaWs
+2018-08-18 00:20:00,182 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0010: Stopping weld service for deployment javaee.war
+2018-08-18 00:20:00,247 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 75) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'javaee.war#javaeeDS'
+2018-08-18 00:20:00,306 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 73) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'javaee.war#javaeeDS'
+2018-08-18 00:20:00,317 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment javaee.war (runtime-name: javaee.war) in 296ms
+2018-08-18 00:20:00,327 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 73) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2018-08-18 00:20:00,442 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0009: Undeployed "javaee.war" (runtime-name: "javaee.war")
+2018-08-18 00:20:04,055 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found javaee.war in deployment directory. To trigger deployment create a file called javaee.war.dodeploy
+2018-08-18 00:20:04,070 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "javaee.war" (runtime-name: "javaee.war")
+2018-08-18 00:20:04,589 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for javaeeDS
+2018-08-18 00:20:04,614 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 73) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'javaee.war#javaeeDS'
+2018-08-18 00:20:04,614 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 73) HHH000204: Processing PersistenceUnitInfo [
+	name: javaeeDS
+	...]
+2018-08-18 00:20:04,620 INFO  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 73) HHH90000001: Found usage of deprecated setting for specifying Scanner [hibernate.ejb.resource_scanner]; use [hibernate.archive.scanner] instead
+2018-08-18 00:20:04,648 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment javaee.war
+2018-08-18 00:20:04,651 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ContaDao' in deployment unit 'deployment "javaee.war"' are as follows:
+
+	java:global/javaee/ContaDao!br.com.javaee.dao.ContaDao
+	java:app/javaee/ContaDao!br.com.javaee.dao.ContaDao
+	java:module/ContaDao!br.com.javaee.dao.ContaDao
+	java:global/javaee/ContaDao
+	java:app/javaee/ContaDao
+	java:module/ContaDao
+
+2018-08-18 00:20:04,651 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ContaWs' in deployment unit 'deployment "javaee.war"' are as follows:
+
+
+2018-08-18 00:20:04,652 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ContaBean' in deployment unit 'deployment "javaee.war"' are as follows:
+
+	java:global/javaee/ContaBean!br.com.javaee.beans.ContaBean
+	java:app/javaee/ContaBean!br.com.javaee.beans.ContaBean
+	java:module/ContaBean!br.com.javaee.beans.ContaBean
+	java:global/javaee/ContaBean
+	java:app/javaee/ContaBean
+	java:module/ContaBean
+
+2018-08-18 00:20:05,147 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 73) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-08-18 00:20:05,148 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 73) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-08-18 00:20:05,149 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 73) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-08-18 00:20:05,149 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 73) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-08-18 00:20:05,156 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 73) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-08-18 00:20:05,180 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0006: Starting Services for CDI deployment: javaee.war
+2018-08-18 00:20:05,182 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-2) JBWS024061: Adding service endpoint metadata: id=ContaWs
+ address=http://localhost:8080/javaee/ContaWs
+ implementor=webService.ContaWs
+ serviceName={http://webService/}ContaWsService
+ portName={http://webService/}ContaWsPort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2018-08-18 00:20:05,308 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-2) Creating Service {http://webService/}ContaWsService from class webService.ContaWs
+2018-08-18 00:20:05,445 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-2) Setting the server's publish address to be http://localhost:8080/javaee/ContaWs
+2018-08-18 00:20:05,493 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-2) JBWS024074: WSDL published to: file:/C:/Users/trilha/Desktop/wildfly-10.0.0.Final/standalone/data/wsdl/javaee.war/ContaWsService.wsdl
+2018-08-18 00:20:05,539 INFO  [org.jboss.as.webservices] (MSC service thread 1-1) WFLYWS0003: Starting service jboss.ws.endpoint."javaee.war".ContaWs
+2018-08-18 00:20:05,542 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0009: Starting weld service for deployment javaee.war
+2018-08-18 00:20:05,576 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 73) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'javaee.war#javaeeDS'
+2018-08-18 00:20:05,578 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 73) HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2018-08-18 00:20:05,599 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 73) Envers integration enabled? : true
+2018-08-18 00:20:05,625 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 73) HHH000228: Running hbm2ddl schema update
+2018-08-18 00:20:06,459 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 74) Inicializando Mojarra 2.2.12-jbossorg-2 20150729-1131 para o contexto '/javaee'
+2018-08-18 00:20:07,307 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 74) WFLYUT0021: Registered web context: /javaee
+2018-08-18 00:20:07,331 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "javaee.war" (runtime-name : "javaee.war")
+2018-08-18 00:20:21,406 WARNING [org.apache.cxf.phase.PhaseInterceptorChain] (default task-5) Interceptor for {http://webService/}ContaWsService#{http://webService/}alterar has thrown exception, unwinding now: org.apache.cxf.interceptor.Fault: Unmarshalling Error: Not a number: ? 
+	at org.apache.cxf.jaxb.JAXBEncoderDecoder.unmarshall(JAXBEncoderDecoder.java:905)
+	at org.apache.cxf.jaxb.JAXBEncoderDecoder.unmarshall(JAXBEncoderDecoder.java:712)
+	at org.apache.cxf.jaxb.io.DataReaderImpl.read(DataReaderImpl.java:179)
+	at org.apache.cxf.wsdl.interceptors.DocLiteralInInterceptor.handleMessage(DocLiteralInInterceptor.java:109)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:251)
+	at org.jboss.wsf.stack.cxf.RequestHandlerImpl.handleHttpRequest(RequestHandlerImpl.java:108)
+	at org.jboss.wsf.stack.cxf.transport.ServletHelper.callRequestHandler(ServletHelper.java:134)
+	at org.jboss.wsf.stack.cxf.CXFServletExt.invoke(CXFServletExt.java:88)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:293)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:212)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.jboss.wsf.stack.cxf.CXFServletExt.service(CXFServletExt.java:136)
+	at org.jboss.wsf.spi.deployment.WSFServlet.service(WSFServlet.java:140)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:284)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:263)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:174)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:793)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.xml.bind.UnmarshalException
+ - with linked exception:
+[com.sun.istack.SAXParseException2; lineNumber: 14; columnNumber: 30; Not a number: ?]
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallerImpl.handleStreamException(UnmarshallerImpl.java:483)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:417)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(UnmarshallerImpl.java:394)
+	at org.apache.cxf.jaxb.JAXBEncoderDecoder.doUnmarshal(JAXBEncoderDecoder.java:855)
+	at org.apache.cxf.jaxb.JAXBEncoderDecoder.access$100(JAXBEncoderDecoder.java:102)
+	at org.apache.cxf.jaxb.JAXBEncoderDecoder$2.run(JAXBEncoderDecoder.java:894)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.cxf.jaxb.JAXBEncoderDecoder.unmarshall(JAXBEncoderDecoder.java:892)
+	... 42 more
+Caused by: com.sun.istack.SAXParseException2; lineNumber: 14; columnNumber: 30; Not a number: ?
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleEvent(UnmarshallingContext.java:740)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleError(UnmarshallingContext.java:770)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleError(UnmarshallingContext.java:766)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.Loader.handleParseConversionException(Loader.java:275)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.LeafPropertyLoader.text(LeafPropertyLoader.java:69)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallingContext.text(UnmarshallingContext.java:589)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.StAXStreamConnector.processText(StAXStreamConnector.java:338)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.StAXStreamConnector.handleEndElement(StAXStreamConnector.java:216)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.StAXStreamConnector.bridge(StAXStreamConnector.java:185)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:415)
+	... 48 more
+Caused by: javax.xml.bind.UnmarshalException: Not a number: ?
+ - with linked exception:
+[java.lang.NumberFormatException: Not a number: ?]
+	... 58 more
+Caused by: java.lang.NumberFormatException: Not a number: ?
+	at com.sun.xml.bind.DatatypeConverterImpl._parseInt(DatatypeConverterImpl.java:124)
+	at com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$17.parse(RuntimeBuiltinLeafInfoImpl.java:738)
+	at com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$17.parse(RuntimeBuiltinLeafInfoImpl.java:736)
+	at com.sun.xml.bind.v2.runtime.reflect.TransducedAccessor$CompositeTransducedAccessorImpl.parse(TransducedAccessor.java:245)
+	at com.sun.xml.bind.v2.runtime.unmarshaller.LeafPropertyLoader.text(LeafPropertyLoader.java:65)
+	... 53 more
+
+2018-08-18 00:20:30,253 INFO  [stdout] (default task-6) null

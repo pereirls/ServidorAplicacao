@@ -1,0 +1,224 @@
+2018-08-03 12:21:38,272 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.1.Final
+2018-08-03 12:21:38,790 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2018-08-03 12:21:38,911 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) starting
+2018-08-03 12:21:38,913 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\trilha\Desktop\wildfly-10.0.0.Final\jboss-modules.jar;C:\Program Files\Java\jre1.8.0_181\lib\resources.jar;C:\Program Files\Java\jre1.8.0_181\lib\rt.jar;C:\Program Files\Java\jre1.8.0_181\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_181\lib\jce.jar;C:\Program Files\Java\jre1.8.0_181\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_181\lib\jfr.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_181\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_181\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_181
+	java.io.tmpdir = C:\Users\trilha\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jre1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Brackets\command;C:\Users\trilha\Desktop\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_181-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_181
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.181-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\trilha\Desktop\wildfly-10.0.0.Final
+	jboss.host.name = trilha-pc
+	jboss.modules.dir = C:\Users\trilha\Desktop\wildfly-10.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = trilha-pc
+	jboss.qualified.host.name = trilha-pc
+	jboss.server.base.dir = C:\Users\trilha\Desktop\wildfly-10.0.0.Final\standalone
+	jboss.server.config.dir = C:\Users\trilha\Desktop\wildfly-10.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\trilha\Desktop\wildfly-10.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\trilha\Desktop\wildfly-10.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\trilha\Desktop\wildfly-10.0.0.Final\standalone\log
+	jboss.server.name = trilha-pc
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\trilha\Desktop\wildfly-10.0.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\trilha\Desktop\wildfly-10.0.0.Final\standalone\configuration\logging.properties
+	module.path = C:\Users\trilha\Desktop\wildfly-10.0.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\trilha\Desktop\wildfly-10.0.0.Final\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	program.name = JBossTools: WildFly 10.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_181\lib\resources.jar;C:\Program Files\Java\jre1.8.0_181\lib\rt.jar;C:\Program Files\Java\jre1.8.0_181\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_181\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_181\lib\jce.jar;C:\Program Files\Java\jre1.8.0_181\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_181\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_181\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_181\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\Users\trilha\Desktop\wildfly-10.0.0.Final\modules org.jboss.as.standalone -b localhost --server-config=standalone-full.xml -Djboss.server.base.dir=C:\Users\trilha\Desktop\wildfly-10.0.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = C:\Users\trilha\Desktop\wildfly-10.0.0.Final\bin
+	user.home = C:\Users\trilha
+	user.language = pt
+	user.name = trilha
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2018-08-03 12:21:38,914 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -Dprogram.name=JBossTools: WildFly 10.x -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\Users\trilha\Desktop\wildfly-10.0.0.Final\standalone\log\boot.log -Dlogging.configuration=file:C:\Users\trilha\Desktop\wildfly-10.0.0.Final\standalone\configuration\logging.properties -Djboss.home.dir=C:\Users\trilha\Desktop\wildfly-10.0.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2018-08-03 12:21:44,231 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found trilha.war in deployment directory. To trigger deployment create a file called trilha.war.dodeploy
+2018-08-03 12:21:44,296 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-08-03 12:21:44,340 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.3.4.Final
+2018-08-03 12:21:44,348 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.3.4.Final
+2018-08-03 12:21:44,891 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 62) WFLYWS0002: Activating WebServices Extension
+2018-08-03 12:21:44,930 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 59) WFLYSEC0002: Activating Security Subsystem
+2018-08-03 12:21:45,015 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 52) WFLYNAM0001: Activating Naming Subsystem
+2018-08-03 12:21:45,067 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 41) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-08-03 12:21:45,071 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 40) WFLYIO001: Worker 'default' has auto-configured to 2 core threads with 16 task threads based on your 1 available processors
+2018-08-03 12:21:44,971 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 60) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2018-08-03 12:21:45,045 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-08-03 12:21:45,565 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2018-08-03 12:21:45,600 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2018-08-03 12:21:45,605 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 42) WFLYIIOP0001: Activating IIOP Subsystem
+2018-08-03 12:21:45,715 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0003: Undertow 1.3.15.Final starting
+2018-08-03 12:21:45,749 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0014: Creating file handler for path 'C:\Users\trilha\Desktop\wildfly-10.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-08-03 12:21:46,994 INFO  [org.jboss.as.security] (MSC service thread 1-2) WFLYSEC0001: Current PicketBox version=4.9.4.Final
+2018-08-03 12:21:47,001 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.2.Final)
+2018-08-03 12:21:47,035 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 1.3.15.Final starting
+2018-08-03 12:21:47,214 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 4.0.18.Final
+2018-08-03 12:21:47,243 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-08-03 12:21:47,243 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = mysql
+2018-08-03 12:21:47,245 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Starting Naming Service
+2018-08-03 12:21:47,321 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 16 (per class), which is derived from thread worker pool sizing.
+2018-08-03 12:21:47,333 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-08-03 12:21:47,361 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\trilha\Desktop\wildfly-10.0.0.Final\standalone\deployments
+2018-08-03 12:21:47,371 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "trilha.war" (runtime-name: "trilha.war")
+2018-08-03 12:21:47,406 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 4 (per class), which is derived from the number of CPUs on this host.
+2018-08-03 12:21:47,427 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0012: Started server default-server.
+2018-08-03 12:21:47,793 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-2) WFLYIIOP0009: CORBA ORB Service started
+2018-08-03 12:21:48,537 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: Host default-host starting
+2018-08-03 12:21:48,584 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-08-03 12:21:49,024 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-1) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.0.Final
+2018-08-03 12:21:49,364 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0001: AIO wasn't located on this platform, it will fall back to using pure Java NIO.
+2018-08-03 12:21:50,443 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=C:\Users\trilha\Desktop\wildfly-10.0.0.Final\standalone\data\activemq\journal,bindingsDirectory=C:\Users\trilha\Desktop\wildfly-10.0.0.Final\standalone\data\activemq\bindings,largeMessagesDirectory=C:\Users\trilha\Desktop\wildfly-10.0.0.Final\standalone\data\activemq\largemessages,pagingDirectory=C:\Users\trilha\Desktop\wildfly-10.0.0.Final\standalone\data\activemq\paging)
+2018-08-03 12:21:50,551 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221013: Using NIO Journal
+2018-08-03 12:21:50,506 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/casadocodigoDS]
+2018-08-03 12:21:50,652 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-08-03 12:21:50,652 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/trilhaDS]
+2018-08-03 12:21:50,839 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2018-08-03 12:21:50,847 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2018-08-03 12:21:50,854 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2018-08-03 12:21:50,864 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2018-08-03 12:21:51,451 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 5.1.3.Final (Apache CXF 3.1.4) 
+2018-08-03 12:21:51,862 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2018-08-03 12:21:51,864 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2018-08-03 12:21:51,865 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2018-08-03 12:21:51,865 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2018-08-03 12:21:52,869 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221007: Server is now live
+2018-08-03 12:21:52,870 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221001: Apache ActiveMQ Artemis Message Broker version 1.1.0.wildfly-011 [nodeID=22a0a8c9-8e8c-11e8-98c3-1398376f65b9] 
+2018-08-03 12:21:52,963 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221003: trying to deploy queue jms.queue.DLQ
+2018-08-03 12:21:53,173 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) WFLYJCA0007: Registered connection factory java:/JmsXA
+2018-08-03 12:21:53,289 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for casadocodigo-dev
+2018-08-03 12:21:53,378 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 64) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'trilha.war#casadocodigo-dev'
+2018-08-03 12:21:53,394 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 67) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2018-08-03 12:21:53,581 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 64) HHH000204: Processing PersistenceUnitInfo [
+	name: casadocodigo-dev
+	...]
+2018-08-03 12:21:53,734 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 65) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2018-08-03 12:21:53,900 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 66) AMQ221003: trying to deploy queue jms.queue.ExpiryQueue
+2018-08-03 12:21:53,940 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 64) HHH000412: Hibernate Core {5.0.7.Final}
+2018-08-03 12:21:53,944 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 64) HHH000206: hibernate.properties not found
+2018-08-03 12:21:53,947 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 64) HHH000021: Bytecode provider name : javassist
+2018-08-03 12:21:53,986 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-2) Resource adaptor started
+2018-08-03 12:21:53,986 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-2) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2018-08-03 12:21:54,005 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) WFLYJCA0002: Bound JCA ConnectionFactory [java:/JmsXA]
+2018-08-03 12:21:54,006 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2018-08-03 12:21:54,007 INFO  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 64) HHH90000001: Found usage of deprecated setting for specifying Scanner [hibernate.ejb.resource_scanner]; use [hibernate.archive.scanner] instead
+2018-08-03 12:21:54,014 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 64) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-03 12:21:54,111 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment trilha.war
+2018-08-03 12:21:54,197 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-2) HV000001: Hibernate Validator 5.2.3.Final
+2018-08-03 12:21:54,342 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'contaDAO' in deployment unit 'deployment "trilha.war"' are as follows:
+
+	java:global/trilha/contaDAO!org.trilha.dao.contaDAO
+	java:app/trilha/contaDAO!org.trilha.dao.contaDAO
+	java:module/contaDAO!org.trilha.dao.contaDAO
+	java:global/trilha/contaDAO
+	java:app/trilha/contaDAO
+	java:module/contaDAO
+
+2018-08-03 12:21:54,664 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 64) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-08-03 12:21:54,668 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 64) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-08-03 12:21:54,670 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 64) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-08-03 12:21:54,672 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 64) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-08-03 12:21:54,721 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0006: Starting Services for CDI deployment: trilha.war
+2018-08-03 12:21:54,791 INFO  [org.jboss.weld.Version] (MSC service thread 1-2) WELD-000900: 2.3.2 (Final)
+2018-08-03 12:21:54,921 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0009: Starting weld service for deployment trilha.war
+2018-08-03 12:21:55,402 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 66) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'trilha.war#casadocodigo-dev'
+2018-08-03 12:21:55,601 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 64) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-08-03 12:21:56,347 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 66) HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2018-08-03 12:21:56,456 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 66) Envers integration enabled? : true
+2018-08-03 12:21:57,181 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 66) HHH000228: Running hbm2ddl schema update
+2018-08-03 12:21:58,853 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 69) Inicializando Mojarra 2.2.12-jbossorg-2 20150729-1131 para o contexto '/trilha'
+2018-08-03 12:21:59,996 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 69) WFLYUT0021: Registered web context: /trilha
+2018-08-03 12:22:00,160 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "trilha.war" (runtime-name : "trilha.war")
+2018-08-03 12:22:00,721 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-08-03 12:22:00,723 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-08-03 12:22:00,723 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) started in 23173ms - Started 460 of 727 services (399 services are lazy, passive or on-demand)
+2018-08-03 12:22:34,374 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-2) HHH000397: Using ASTQueryTranslatorFactory
+2018-08-03 12:22:34,485 INFO  [stdout] (default task-2) Hibernate: 
+2018-08-03 12:22:34,486 INFO  [stdout] (default task-2)     select
+2018-08-03 12:22:34,486 INFO  [stdout] (default task-2)         conta0_.id as id1_0_,
+2018-08-03 12:22:34,486 INFO  [stdout] (default task-2)         conta0_.data as data2_0_,
+2018-08-03 12:22:34,486 INFO  [stdout] (default task-2)         conta0_.nome as nome3_0_,
+2018-08-03 12:22:34,486 INFO  [stdout] (default task-2)         conta0_.tipoLancamento as tipoLanc4_0_,
+2018-08-03 12:22:34,486 INFO  [stdout] (default task-2)         conta0_.valor as valor5_0_ 
+2018-08-03 12:22:34,487 INFO  [stdout] (default task-2)     from
+2018-08-03 12:22:34,489 INFO  [stdout] (default task-2)         conta conta0_
+2018-08-03 12:22:34,580 INFO  [stdout] (default task-2) Hibernate: 
+2018-08-03 12:22:34,581 INFO  [stdout] (default task-2)     select
+2018-08-03 12:22:34,581 INFO  [stdout] (default task-2)         conta0_.id as id1_0_,
+2018-08-03 12:22:34,581 INFO  [stdout] (default task-2)         conta0_.data as data2_0_,
+2018-08-03 12:22:34,581 INFO  [stdout] (default task-2)         conta0_.nome as nome3_0_,
+2018-08-03 12:22:34,581 INFO  [stdout] (default task-2)         conta0_.tipoLancamento as tipoLanc4_0_,
+2018-08-03 12:22:34,581 INFO  [stdout] (default task-2)         conta0_.valor as valor5_0_ 
+2018-08-03 12:22:34,581 INFO  [stdout] (default task-2)     from
+2018-08-03 12:22:34,582 INFO  [stdout] (default task-2)         conta conta0_
+2018-08-03 12:22:34,621 INFO  [stdout] (default task-2) Hibernate: 
+2018-08-03 12:22:34,623 INFO  [stdout] (default task-2)     select
+2018-08-03 12:22:34,623 INFO  [stdout] (default task-2)         conta0_.id as id1_0_,
+2018-08-03 12:22:34,623 INFO  [stdout] (default task-2)         conta0_.data as data2_0_,
+2018-08-03 12:22:34,623 INFO  [stdout] (default task-2)         conta0_.nome as nome3_0_,
+2018-08-03 12:22:34,623 INFO  [stdout] (default task-2)         conta0_.tipoLancamento as tipoLanc4_0_,
+2018-08-03 12:22:34,624 INFO  [stdout] (default task-2)         conta0_.valor as valor5_0_ 
+2018-08-03 12:22:34,624 INFO  [stdout] (default task-2)     from
+2018-08-03 12:22:34,625 INFO  [stdout] (default task-2)         conta conta0_
